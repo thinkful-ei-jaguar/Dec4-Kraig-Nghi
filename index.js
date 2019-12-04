@@ -1,3 +1,6 @@
+
 $('.thumbnail').on('click', e => {
-    console.log(e.target);
+    
+    
+    $(".hero img").attr('src', `${event.target.src}`);
   });
